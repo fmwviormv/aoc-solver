@@ -1,0 +1,19 @@
+ADVENT OF CODE SOLVER
+
+Safe solutions for advent of code in Rust.
+
+
+HOW TO RUN
+
+You need to pass year and day and input as arguments:
+
+    $ cargo run -- 2015 4 abcdef
+
+You can also send puzzle input using stdin:
+
+    $ echo -n abcdef | cargo run -- 2015 4
+
+
+LICENSE
+
+0BSD

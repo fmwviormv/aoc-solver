@@ -1,0 +1,12 @@
+[package]
+name = "aoc-solver"
+version = "0.1.0"
+authors = ["Ali Farzanrad <ali_farzanrad@riseup.net>"]
+edition = "2021"
+description = "Safe solutions for Advent of Code"
+repository = "https://github.com/fmwviormv/aoc-solver"
+license = "0BSD"
+keywords = ["adventofcode", "aoc"]
+
+[lints.rust]
+unsafe_code = "forbid"
